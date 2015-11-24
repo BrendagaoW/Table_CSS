@@ -6,3 +6,8 @@ table {
 th, td {
 	border: none;
 }
+
+th {
+	background-color: #00a;
+	color: #fff;
+}
