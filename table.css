@@ -19,3 +19,7 @@ tr:nth-of-type(even) {
 tr:nth-of-type(odd) {
 	background-color: #ddd;
 }
+
+td:nth-child(n+2) {
+	text-align: right;
+}
