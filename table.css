@@ -23,3 +23,23 @@ tr:nth-of-type(odd) {
 td:nth-child(n+2) {
 	text-align: right;
 }
+
+tr:last-child {
+	font-weight: bolder;
+}
+
+td:last-child {
+	font-weight: bolder;
+}
+
+tr:last-child td:last-child {
+	font-size: 24px;
+}
+
+tr:nth-last-child(2) {
+	color: green;
+}
+
+tr:nth-last-child(-n+3) {
+	text-align:right;
+}
